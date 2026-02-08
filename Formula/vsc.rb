@@ -1,7 +1,7 @@
 class Vsc < Formula
   desc "VSC - Game Development Version Control CLI"
   homepage "https://github.com/treyktw/gamedev-vcs"
-  version "0.0.31"
+  version "0.0.3"
 
   on_macos do
     if Hardware::CPU.arm?
