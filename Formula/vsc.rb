@@ -1,15 +1,15 @@
 class Vsc < Formula
   desc "VSC - Game Development Version Control CLI"
   homepage "https://github.com/treyktw/gamedev-vcs"
-  version "0.0.311"
+  version "0.0.312"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.311/vsc-0.0.311-darwin-arm64.tar.gz"
-      sha256 "e2005c6435dcdd6f338cae5fc857724aec755162d2100d17a467856928429cdf"
+      url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.312/vsc-0.0.312-darwin-arm64.tar.gz"
+      sha256 "442fc7f8b14765db355c4a7106129fbed7788b92bf5cd5e9654930772881733d"
     else
-      url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.311/vsc-0.0.311-darwin-amd64.tar.gz"
-      sha256 "34cf1e301d816aced4c7423ed4900271336db2a02ec230e15fe4708ce50c4ba7"
+      url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.312/vsc-0.0.312-darwin-amd64.tar.gz"
+      sha256 "2c231531f9009dd3625120ff8eca19981b46143efedc7b74ef41e725843375b4"
     end
   end
 
