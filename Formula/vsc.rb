@@ -6,10 +6,10 @@ class Vsc < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.312/vsc-0.0.312-darwin-arm64.tar.gz"
-      sha256 "442fc7f8b14765db355c4a7106129fbed7788b92bf5cd5e9654930772881733d"
+      sha256 "76c7788cb5ed892c4968ba2af9beb09cf79fe2f23aa60f5fd443a5b45feed083"
     else
       url "https://github.com/treyktw/gamedev-vcs/releases/download/v0.0.312/vsc-0.0.312-darwin-amd64.tar.gz"
-      sha256 "2c231531f9009dd3625120ff8eca19981b46143efedc7b74ef41e725843375b4"
+      sha256 "5d7c84b4e5c18cf9da55cae18d873ee268da582448c3138f330ca54cac0311b6"
     end
   end
 
