@@ -1,15 +1,15 @@
 class Zync < Formula
   desc "Zync - Game Development Version Control CLI"
   homepage "https://github.com/treyktw/zync-cli"
-  version "0.0.314"
+  version "0.0.315"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/treyktw/zync-cli/releases/download/v0.0.314/zync-0.0.314-darwin-arm64.tar.gz"
-      sha256 "edf327ec0b9e967719122de5f84124e0f99e1624969d69c6bfe96a7b3963d1e5"
+      url "https://github.com/treyktw/zync-cli/releases/download/v0.0.315/zync-0.0.315-darwin-arm64.tar.gz"
+      sha256 "0dc3ea7c99ff8f822316f5bc5ea314e298fee9862c40e5f4438b053e80419816"
     else
-      url "https://github.com/treyktw/zync-cli/releases/download/v0.0.314/zync-0.0.314-darwin-amd64.tar.gz"
-      sha256 "74cf5471856b712473029a60becca1add0e8d0e8e02ec69f33478acdbaf19220"
+      url "https://github.com/treyktw/zync-cli/releases/download/v0.0.315/zync-0.0.315-darwin-amd64.tar.gz"
+      sha256 "172e59c349ecb944b69a91bf4f48a43a33809e8debc0602484ddc919d8657881"
     end
   end
 
