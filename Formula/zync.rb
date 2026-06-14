@@ -6,10 +6,10 @@ class Zync < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/treyktw/zync-cli/releases/download/v0.0.410/zync-0.0.410-darwin-arm64.tar.gz"
-      sha256 "8fd53b66498596798ed588f41f897753e469fb10d2d3167fa315495bd010ddae"
+      sha256 "c68b91d4e30a8396f640bcc91c6f0cbe42937465f59045ba354b9c3af36048fa"
     else
       url "https://github.com/treyktw/zync-cli/releases/download/v0.0.410/zync-0.0.410-darwin-amd64.tar.gz"
-      sha256 "3aa8f728bb5fa05fcc6571c76bda4e4ea997328f2c82d17d42cbfd15a2f2b1c9"
+      sha256 "154f98fc93fd5d78214a1152fc70746f9471da4577a1867f422e6b5ec09bc778"
     end
   end
 
